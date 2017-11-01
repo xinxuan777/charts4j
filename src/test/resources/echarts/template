@@ -23,10 +23,11 @@
 </div>
 </body>
 <!-- ECharts单文件引入 -->
-<script src="http://echarts.baidu.com/gallery/vendors/echarts/echarts-all-3.js"></script>
+<script src="echarts.min.js"></script>
+<script src="shine.js"></script>
 <script type="text/javascript">
 // 基于准备好的dom，初始化echarts图表
-var myChart = echarts.init(document.getElementById('main'));
+var myChart = echarts.init(document.getElementById('main'), 'shine');
 
 var option = ##option##;
 
