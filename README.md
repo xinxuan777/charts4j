@@ -1,0 +1,4 @@
+# charts4j
+HighCharts and ECharts for JAVA
+本项目主要用JAVA对HighCharts和ECharts进行了简单的封装，采用HashMap来存储图表各种属性，其中ECharts部分用到了https://gitee.com/free/ECharts部分代码，在此申明。
+具体在JAVA中如何使用在项目中给出了单元测试例子，更多的参数使用可参考对应的HighCharts和ECharts相关文档地址。
