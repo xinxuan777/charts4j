@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>HighCharts - Generate By zxx</title>
+    <style>*{ margin:0} html,body{ height:100%} .wrapper{ min-height:100%; height:auto !important; height:100%; margin:0 auto -155px} .footer,.push{ height:155px} table.gridtable{ font-family:verdana,arial,sans-serif; font-size:11px; color:#333; border-width:1px; border-color:#666; border-collapse:collapse; margin:5px auto} table.gridtable th{ border-width:1px; padding:8px; border-style:solid; border-color:#666; background-color:#dedede} table.gridtable td{ border-width:1px; padding:8px; border-style:solid; border-color:#666; background-color:#fff} .middle{ text-align:center; margin:0 auto; width:90%; height:auto} .info{ font-size:12px; text-align:center; line-height:20px; padding:40px} .info a{ margin:0 10px; text-decoration:none; color:green}</style>
+</head>
+<body>
+<div class="wrapper">
+    <div class="middle">
+        <h1 style="padding: 70px 0 20px;">HighCharts效果</h1>
+        <!-- 为HighCharts准备一个具备大小（宽高）的Dom -->
+        <div id="container" style="height:400px"></div>
+    </div>
+    <div class="push"></div>
+</div>
+<div class="footer">
+    <div class="info">
+        <a href="http://git.oschina.net/free/ECharts" target="_blank">项目地址</a>
+        <a href="http://echarts.baidu.com" target="_blank">ECharts地址</a>
+    </div>
+</div>
+</body>
+<!-- HighCharts单文件引入 -->
+<script src="highcharts.js"></script>
+<script src="exporting.js"></script>
+<script src="highcharts-zh_CN.js"></script>
+<script type="text/javascript">
+//初始化chart  
+var option = ##option##;
+var chart = new Highcharts.Chart('container',option);  
+
+</script>
+</html>
